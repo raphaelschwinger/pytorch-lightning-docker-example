@@ -1,5 +1,5 @@
 {
-	"name": "PPUU-FerryGym-Test2",
+	"name": "pytorch-lightning-docker",
 	"dockerComposeFile": "docker-compose.yml",
 	"service": "devcontainer",
 	"workspaceFolder": "/workspace",
@@ -27,7 +27,8 @@
 		"ms-python.python",
 		"ms-python.vscode-pylance",
 		"github.copilot",
-		"ms-toolsai.jupyter"
+		"ms-toolsai.jupyter",
+		"ms-python.autopep8"
 	],
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
