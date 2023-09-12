@@ -9,7 +9,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     pkg-config \
     python3-dev \
     git \
-    curl
+    curl \
+    ssh
 
 # install poetry
 RUN curl -sSL https://install.python-poetry.org | python3 -
