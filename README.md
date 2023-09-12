@@ -3,23 +3,30 @@ Example code how to run [pytorch lighting](https://www.pytorchlightning.ai/index
 
 ## Setup
 
+### Requirements
 - Server with CUDA graphic cards
 - Docker installed
 
+### Installation
+
+1. Clone repo
+
+2. Open in VS Code
+
+3. Reopen in Container
+
+4. Install dependences
+```
+poetry install
+```
+
+5. Start shell
+```
+poetry shell
+```
+
 ## Features
 
-- [ ] Multi-gpu support:
-    - Status: probably gpus can not communicate appropriately, need to check:
-        - NV Link
-        - driver / cuda version 
-- [ ] [Hyperparameter setup](https://lightning.ai/docs/pytorch/1.6.3/common/hyperparameters.html):
+- [x] Multi-gpu support:
+- [x] [Hyperparameter setup](https://lightning.ai/docs/pytorch/1.6.3/common/hyperparameters.html):
     - Easily save and load hyperparameters for different experiments
-
-
-## Add python packages
-
-Install packages with `pip install <package>` and add them to the `requirements.txt` file with `pip freeze > .devcontainer/requirements.txt`.
-
-## Add system packages
-
-Install packages with `apt-get install <package>` and add them to the `Dockerfile` file.
